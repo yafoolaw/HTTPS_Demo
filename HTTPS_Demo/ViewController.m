@@ -32,7 +32,7 @@
     manager.requestSerializer = [AFHTTPRequestSerializer serializer];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     
-    // 使用自签名证书要用一下代码来验证,其他情况要注掉
+    // 使用自签名证书要用以下代码来验证,其他情况要注掉
 //    manager.securityPolicy      = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeCertificate];
 //    manager.securityPolicy.validatesDomainName      = YES;
 //    manager.securityPolicy.allowInvalidCertificates = YES;
